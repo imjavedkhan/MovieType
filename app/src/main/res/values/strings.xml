@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="comedy">Comedy</string>
+    <string name="horror">Horror</string>
+    <string name="romantic">Romantic</string>
+    <string name="sci_fiction">Sci-Fiction</string>
+    <string name="thriller">Thriller</string>
+    <string name="type_of_movies">Type of Movies</string>
+    <string name="select">SELECT</string>
+    <string name="conjuring">Conjuring</string>
+    <string name="insidious">Insidious</string>
+    <string name="hostel">Hostel</string>
+    <string name="spy">Spy</string>
+    <string name="toy_story">Toy Story</string>
+    <string name="up">UP</string>
+    <string name="inception">Inception</string>
+    <string name="jason_bourne">Jason Bourne</string>
+    <string name="taken">Taken</string>
+    <string name="interstellar">Interstellar</string>
+    <string name="men_in_black">Men In Black</string>
+    <string name="star_trek">Star Trek</string>
+    <string name="no_strings_attached">No Strings Attached</string>
+    <string name="the_notebook">The Notebook</string>
+    <string name="twilight">Twilight</string>
+</resources>

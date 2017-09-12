@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.predator.movietype.RomanticActivity">
+
+    <TextView
+        android:id="@+id/tn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_notebook"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="30dp"/>
+    <TextView
+        android:id="@+id/tw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/twilight"
+        android:textSize="25sp"
+        android:layout_below="@+id/tn"
+        android:layout_marginStart="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_strings_attached"
+        android:textSize="25sp"
+        android:layout_below="@+id/tw"
+        android:layout_marginStart="30dp"/>
+</RelativeLayout>

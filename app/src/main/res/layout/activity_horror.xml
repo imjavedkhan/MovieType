@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.predator.movietype.HorrorActivity">
+
+    <TextView
+        android:id="@+id/conjuring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/conjuring"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="30dp"/>
+    <TextView
+        android:id="@+id/insidious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/insidious"
+        android:textSize="25sp"
+        android:layout_below="@id/conjuring"
+        android:layout_marginStart="30dp"/>
+    <TextView
+        android:id="@+id/hostel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hostel"
+        android:textSize="25sp"
+        android:layout_below="@+id/insidious"
+        android:layout_marginStart="30dp"/>
+</RelativeLayout>
